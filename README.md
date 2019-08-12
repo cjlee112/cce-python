@@ -1,6 +1,6 @@
 # Identifying Public Domain Works with Python
 
-This set of Python scripts combines [copyright registration
+This set of Python 2 scripts combines [copyright registration
 data](https://github.com/NYPL/catalog_of_copyright_entries_project)
 with [copyright renewal data](https://github.com/NYPL/cce-renewals/)
 to identify works whose copyright has lapsed because a registration
@@ -45,6 +45,8 @@ time.
 git submodule init
 git submodule update
 ```
+
+Note that these scripts require Python 2 (i.e. do not work with Python 3).
 
 Make sure the lxml XML parser is installed:
 
